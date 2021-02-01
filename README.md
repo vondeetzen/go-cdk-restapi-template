@@ -1,6 +1,10 @@
 This is my template for developing a go and AWS bases Rest API using CDK.
 Maybe it is helpful for you too.
 
+## License
+
+Apache License 2.0
+
 ## Features
 
 * Sample Go based Lambda
