@@ -1,0 +1,2 @@
+GET {{url}}/first
+x-api-key: {{apikey}}

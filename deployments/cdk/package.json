@@ -8,7 +8,10 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "predeploy": "npm run build",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.87.1",
@@ -21,6 +24,8 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.87.1",
+    "@aws-cdk/aws-lambda": "^1.87.1",
     "@aws-cdk/core": "1.87.1",
     "source-map-support": "^0.5.16"
   }
